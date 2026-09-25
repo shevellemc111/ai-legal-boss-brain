@@ -1,0 +1,18 @@
+{
+  "name": "ai-legal-boss-brain",
+  "owner": {
+    "name": "Shevelle McPherson, Esq.",
+    "email": "info@shevellemcpherson.com"
+  },
+  "metadata": {
+    "description": "AI Legal Boss Brain — the Firm Brain Builder kit for AI Powered Law Firm Live, by Shevelle McPherson."
+  },
+  "plugins": [
+    {
+      "name": "ai-legal-boss-brain",
+      "source": "./plugins/ai-legal-boss-brain",
+      "description": "Firm Brain Builder kit for AI Powered Law Firm Live: build your Firm Brain, voice, about-me, and brand kit, then stand up three AI employees (Intake Coordinator, Email Manager, Operations Assistant) built around attorney-only guardrails.",
+      "version": "1.0.0"
+    }
+  ]
+}
