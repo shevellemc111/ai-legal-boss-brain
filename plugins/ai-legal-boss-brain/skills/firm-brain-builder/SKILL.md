@@ -1,7 +1,7 @@
 ---
 name: firm-brain-builder
 description: Required. Builds firm-brain.md — the operating brain your AI employees run on. Use at the start of Firm Brain pre-work, whenever firm-brain.md doesn't exist yet, or needs a refresh. ~20-25 minutes. Trigger on "firm brain," "start my firm brain," "let's do my firm brain," "firm brain pre-work," or any request to build, fill out, or create a firm brain file.
-version: 2.0
+version: 2.1
 ---
 
 # Firm Brain Builder
@@ -22,21 +22,25 @@ Everything this training builds lives in one folder attached to this Cowork task
 
 ## Before you start
 
-Check whether `about-me/firm-brain.md` already exists. Check also whether the attorney has a completed **Firm Brain Prep Sheet** (the fillable Word doc version) — uploaded, pasted, or mentioned as already filled out. Also ask whether they'd rather talk through their answers than type them.
+Check whether `about-me/firm-brain.md` already exists.
 
-Then pick a path:
+- **It exists already** → tell them what you found and ask if they want to redo it fully, gap-check it against the current questions, or leave it alone.
+- **It doesn't exist yet, but the attorney has a completed (or partial) Firm Brain Pre-Work Packet — typed answers or a voice-memo transcript — uploaded, pasted, or mentioned as already done** → ask first, don't pick a path for them: "I found your pre-work on Firm Basics and the 9 questions. Want me to use it and only ask about what's missing, or would you rather answer them fresh?"
+  - **Use the pre-work → Path B (Gap-Check).** Say up front how much is covered: "From your pre-work, [n] of 9 are answered. Let's cover: [list]."
+  - **Answer fresh → Path A (Interview)**, and don't pull from the pre-work while running it.
+- **Neither exists** → **Path A (Interview).**
 
-- **No existing file, no Prep Sheet, no voice memo → Path A (Interview).**
-- **A completed (or partial) Prep Sheet, or a voice memo transcript, exists → Path B (Gap-Check).**
-- **`firm-brain.md` already exists → tell them what you found and ask if they want to redo it fully, gap-check it against the current questions, or leave it alone.**
+**Switching mid-stream, either direction:**
+- Running Path A and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live here (their live answers win over the pre-work on anything both cover), fill the rest in from the pre-work, and tell them where that leaves things: "Between what you've answered here and your pre-work, [x] of 9 are done. I just need you on: [list]." Then ask only the remaining gaps — that's Path B from here on.
+- Running Path B and they'd rather answer the rest fresh instead — switch back just as readily, and stop pulling from the pre-work for anything not yet asked.
 
-Never assume — ask in one line if it's not obvious which path applies.
+Never assume — ask in one line if it's not obvious which path applies. Also ask whether they'd rather talk through remaining answers than type them.
 
 ### Voice memo option
 
 Offer this up front: "If you'd rather talk through this than type, record yourself out loud answering the Firm Basics and the 9 questions — your phone's voice memo app is easiest, or your computer's dictation tool. Most transcribe automatically; if not, dictate into a Notes app. Upload or paste the resulting transcript here instead of doing the typed interview."
 
-Treat an uploaded transcript as a Path B input, same as a Prep Sheet.
+Treat an uploaded transcript the same as a Pre-Work Packet for the choice above.
 
 **Bonus:** since Writing Rules is required for this kit, this transcript can double as one of the three writing samples that module needs — mention this so they don't have to record a second one.
 
@@ -244,3 +248,5 @@ Show the folder structure so far, then say: "Firm Brain is done — the required
 ## Version notes
 
 v2.0 — Folder-check gate, `about-me/` file location, Standing File Rule, voice-memo option, and pause/resume language, matching the pattern used across this kit. Writing Rules is required in this kit, so Q3's note points to it as required.
+
+v2.1 — Added the pre-work choice-and-switch behavior: if the Firm Brain Pre-Work Packet already has these questions answered, ask whether to use it and only fill gaps, or answer fresh, and support switching either direction mid-session.
