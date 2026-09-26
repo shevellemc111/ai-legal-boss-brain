@@ -1,7 +1,7 @@
 ---
 name: ai-intake-coordinator
 description: AI Employee — Intake Coordinator (Level 1). A guided setup interview (practice areas needing intake, conflict-check step, how leads arrive, intake questions, engagement letter template, e-signature tool, escalation) builds the attorney's intake rulebook, then it runs intake for every new prospective client — one question at a time — flags conflicts, and drafts the engagement letter for review. Setup can be paused and resumed. Trigger on "intake coordinator," "set up my intake coordinator," "new client," "start intake," "new inquiry," "draft an engagement letter," or any request to onboard a prospective client.
-version: 1.0
+version: 1.1
 ---
 
 # AI Employee: Intake Coordinator
@@ -23,9 +23,14 @@ It runs in two modes:
 
 ## Which mode to run
 
-- `about-me/intake-coordinator.md` doesn't exist → start **Setup** at question 1.
+- `about-me/intake-coordinator.md` doesn't exist yet, and no Intake Coordinator pre-work is on file → start **Setup** at question 1.
+- `about-me/intake-coordinator.md` doesn't exist yet, but the Firm Brain Pre-Work Packet already has the Intake Coordinator section answered → ask first: "I found your pre-work on Intake Coordinator. Want me to use it and only ask about what's missing, or would you rather answer these 9 questions fresh?"
+  - **Use the pre-work:** map every answer onto the rulebook template below, flag anything thin or missing (no engagement letter template attached, no answer on e-signature, etc.), then ask only about the gaps, one at a time. Say up front how much is covered: "From your pre-work, [n] of 9 are answered. Let's cover: [list]."
+  - **Answer fresh:** run Setup below, one question at a time, and don't pull from the pre-work while doing it.
 - It exists but has sections marked `[not yet answered]` → **pick up where they left off.** Say: "Welcome back — you've finished [n] of 9 setup questions. Picking up at question [x]: [topic]." Don't re-ask anything already answered.
 - It's complete → run whatever they asked for from **Daily work**. "New client" or "start intake" runs a **Client intake**.
+
+**Switching mid-stream, either direction:** running Setup fresh and they say something like "just use my pre-work" — switch right away, keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest from the pre-work, and say "Between what you've answered here and your pre-work, [x] of 9 are done. I just need you on: [list]," then ask only the remaining gaps. Gap-checking the pre-work and they'd rather finish fresh instead — switch back just as readily, and stop pulling from the pre-work from that point on.
 
 ---
 
