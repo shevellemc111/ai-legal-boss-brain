@@ -1,7 +1,7 @@
 ---
 name: ai-email-manager
 description: AI Employee — Email Manager (Level 1). A short guided setup (account, priority senders, recurring emails, reply drafts, check schedule), then it checks and scans the inbox, gives a short summary, and drafts replies for review — on a schedule or on request. Drafts only; never sends. Setup can be paused and resumed. Trigger on "email manager," "set up my email manager," "check my email," "scan my inbox," "draft replies," or any request to check or draft email.
-version: 1.0
+version: 1.1
 ---
 
 # AI Employee: Email Manager
@@ -32,9 +32,14 @@ Never guess at inbox contents you can't see.
 
 ## Which mode to run
 
-- `about-me/email-manager.md` doesn't exist → start **Setup** at question 1.
+- `about-me/email-manager.md` doesn't exist yet, and no Email Manager pre-work is on file → start **Setup** at question 1.
+- `about-me/email-manager.md` doesn't exist yet, but the Firm Brain Pre-Work Packet already has the Email Manager section answered → ask first: "I found your pre-work on Email Manager. Want me to use it and only ask about what's missing, or would you rather answer these 6 questions fresh?"
+  - **Use the pre-work:** map every answer onto the template below, flag anything thin or missing, then ask only about the gaps. Say up front how much is covered: "From your pre-work, [n] of 6 are answered. Let's cover: [list]."
+  - **Answer fresh:** run Setup below, one question at a time, and don't pull from the pre-work while doing it.
 - It exists but has sections marked `[not yet answered]` → **pick up where they left off.** Say: "Welcome back. You've finished [n] of 6 setup questions. Picking up at question [x]: [topic]." Don't re-ask anything already answered.
 - It's complete → run an **Inbox check**, or whatever else they asked for.
+
+**Switching mid-stream, either direction:** running Setup fresh and they say something like "just use my pre-work" — switch right away, keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest from the pre-work, and say "Between what you've answered here and your pre-work, [x] of 6 are done. I just need you on: [list]," then ask only the remaining gaps. Gap-checking the pre-work and they'd rather finish fresh instead — switch back just as readily, and stop pulling from the pre-work from that point on.
 
 ---
 
