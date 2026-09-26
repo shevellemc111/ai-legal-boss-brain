@@ -1,7 +1,7 @@
 ---
 name: ai-operations-assistant
 description: AI Employee — Operations Assistant (Level 1). A guided setup interview (matter stages, current tracking method, active matters, critical dates, stall rules, team/optional AI-task-overlap, check-in schedule) builds the attorney's operations rulebook and matter tracker, then it tracks every active matter, surfaces what's due or at risk, and runs scheduled reviews. It is a backstop, never the firm's docket of record. Setup can be paused and resumed. Trigger on "operations assistant," "set up my operations assistant," "what's due," "what's at risk," "matter status," "add a matter," "update matter stage," or any request to track matter work.
-version: 1.0
+version: 1.1
 ---
 
 # AI Employee: Operations Assistant
@@ -23,9 +23,14 @@ It runs in two modes:
 
 ## Which mode to run
 
-- `about-me/operations-assistant.md` doesn't exist → start **Setup** at question 1.
+- `about-me/operations-assistant.md` doesn't exist yet, and no Operations Assistant pre-work is on file → start **Setup** at question 1.
+- `about-me/operations-assistant.md` doesn't exist yet, but the Firm Brain Pre-Work Packet already has the Operations Assistant section answered → ask first: "I found your pre-work on Operations Assistant. Want me to use it and only ask about what's missing, or would you rather answer these questions fresh?"
+  - **Use the pre-work:** map every answer onto the rulebook template below, flag anything thin or missing, then ask only about the gaps. Say up front how much is covered: "From your pre-work, [n] of [8 or 9] are answered. Let's cover: [list]."
+  - **Answer fresh:** run Setup below, one question at a time, and don't pull from the pre-work while doing it.
 - It exists but has sections marked `[not yet answered]` → **pick up where they left off.** Say: "Welcome back — you've finished [n] of [8 or 9] setup questions. Picking up at question [x]: [topic]." Don't re-ask anything already answered.
 - It's complete → run whatever they asked for from **Daily work**. "What's due" or just "operations assistant" runs a **What's-due review**.
+
+**Switching mid-stream, either direction:** running Setup fresh and they say something like "just use my pre-work" — switch right away, keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest from the pre-work, and say "Between what you've answered here and your pre-work, [x] of [8 or 9] are done. I just need you on: [list]," then ask only the remaining gaps. Gap-checking the pre-work and they'd rather finish fresh instead — switch back just as readily, and stop pulling from the pre-work from that point on.
 
 ---
 
