@@ -1,7 +1,7 @@
 ---
 name: how-i-work-builder
 description: Optional. Builds how-i-work.md — standing rules for how Claude should operate day to day with this attorney, separate from what the firm does. Use anytime after firm-brain.md and about-me.md exist. Trigger on "how I work," "how i work file," "set up how Claude works with me," or any request to define working preferences or standing rules.
-version: 1.0
+version: 1.1
 ---
 
 # How I Work Builder
@@ -18,9 +18,21 @@ Everything this training builds lives in one folder the attorney attached to thi
 2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
+## Before you start — pre-work check
+
+Check whether `about-me/how-i-work.md` already exists.
+
+- **It exists already** → tell them what you found and ask if they want to redo it or leave it alone.
+- **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has How I Work answered** → ask first: "I found your pre-work on How I Work. Want me to use it and only ask about what's missing, or would you rather answer these 5 questions fresh?"
+  - **Use the pre-work:** map every answer onto the template, then ask only about the gaps. Say up front how much is covered: "From your pre-work, [n] of 5 are answered. Let's cover: [list]."
+  - **Answer fresh:** ask all 5, one at a time, and don't pull from the pre-work while doing it.
+- **Neither exists** → ask all 5, one at a time, per below.
+
+**Switching mid-stream, either direction:** same as the other modules — "just use my pre-work" switches right away (live answers win over the pre-work, then it fills the rest and says "[x] of 5 are done, I just need you on: [list]"); wanting to finish fresh instead switches back, and the pre-work stops getting pulled from that point on.
+
 ## How to run it
 
-One question at a time, write to file as you go. This is short enough that it rarely needs a gap-check path — if someone has partial answers already, just ask about what's missing.
+One question at a time, write to file as you go.
 
 **1. Response length**
 "When you ask me something, do you usually want the short answer, or the fuller explanation with reasoning? Does that change depending on what you're asking about?"
@@ -75,3 +87,5 @@ Save to `about-me/how-i-work.md`:
 ## Version notes
 
 v1.0 — `about-me/` file location and pause/resume conventions, matching the pattern used across this kit. The two non-negotiable rules (no uncited authority, always flag likely errors) are fixed and don't get customized away.
+
+v1.1 — Added the pre-work choice-and-switch behavior: if the Firm Brain Pre-Work Packet already has How I Work answered, ask whether to use it and only fill gaps, or answer fresh, and support switching either direction mid-session.
