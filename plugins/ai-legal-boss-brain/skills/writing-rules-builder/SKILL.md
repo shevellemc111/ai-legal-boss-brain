@@ -1,7 +1,7 @@
 ---
 name: writing-rules-builder
 description: Required. Builds writing-rules.md from three real writing samples across different registers, so AI-drafted content actually sounds like this attorney. Use after firm-brain.md exists (or alongside it). Trigger on "writing rules," "my writing samples," "voice module," "writing rules pre-work," or any request to build writing rules or capture voice/writing samples.
-version: 2.0
+version: 2.1
 ---
 
 # Writing Rules Builder
@@ -19,6 +19,20 @@ Everything this training builds lives in one folder the attorney attached to thi
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
 2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
+
+## Before you start — pre-work check
+
+Check whether `about-me/writing-rules.md` already exists.
+
+- **It exists already** → tell them what you found and ask if they want to redo it, add a sample, or leave it alone.
+- **It doesn't exist yet, but the attorney's Firm Brain Pre-Work Packet already has one or more of the three writing samples filled in or attached** → ask first: "I found sample(s) in your pre-work. Want me to use what's there and only ask for what's missing, or would you rather give me all three fresh?"
+  - **Use the pre-work:** take the samples that are there as-is, then ask only for the missing register(s), one at a time. Say up front which registers are covered: "From your pre-work, [n] of 3 samples are in — [list which]. I just need: [list what's missing]."
+  - **Answer fresh:** collect all three now, one at a time, and don't pull from the pre-work while doing it.
+- **Neither exists** → collect all three now, per Step 1 below.
+
+**Switching mid-stream, either direction:**
+- Collecting fresh and they say something like "just use my pre-work" — switch right away. Keep whatever sample(s) they've already given you live (those win over the pre-work if both cover the same register), pull the rest from the pre-work, and say where that leaves things: "Between what you've given me here and your pre-work, [x] of 3 are in. I just need: [list]." Then ask only for what's still missing.
+- Gap-checking the pre-work and they'd rather give the rest fresh — switch back just as readily, and stop pulling from the pre-work for anything not yet collected.
 
 ## Step 1 — Collect three samples, one per register
 
@@ -130,3 +144,5 @@ Always stay in the firm's formal legal-writing register, regardless of what thes
 ## Version notes
 
 v2.0 — Required module built on a 3-sample pattern (client-facing, marketing/content, transcript/spoken). Legal-correspondence register is one of the three required samples; Firm Brain Q3's kill list stays the source of truth and gets pulled in here, not rebuilt. Includes the "legal filings always stay formal" rule and a privilege/confidentiality guard on client-correspondence samples.
+
+v2.1 — Added the pre-work choice-and-switch behavior: if the Firm Brain Pre-Work Packet already has the three writing samples, ask whether to use them and only fill gaps, or answer fresh, and support switching either direction mid-session.
