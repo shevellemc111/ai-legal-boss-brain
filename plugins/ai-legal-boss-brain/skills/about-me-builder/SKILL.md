@@ -1,7 +1,7 @@
 ---
 name: about-me-builder
 description: Required. Builds about-me.md — who this attorney is as a person and a practitioner, separate from how the firm runs. ~15 minutes. Trigger on "about me," "my about-me file," "about me pre-work," or any request to build or fill out an about-me file.
-version: 1.0
+version: 1.1
 ---
 
 # About-Me Builder
@@ -18,11 +18,25 @@ Everything this training builds lives in one folder the attorney attached to thi
 2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
+## Before you start — pre-work check
+
+Check whether `about-me/about-me.md` already exists.
+
+- **It exists already** → read it first and gap-check the thin spots instead of starting over.
+- **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has About Me answered — typed or a voice-memo transcript** → ask first: "I found your pre-work on About Me. Want me to use it and only ask about what's missing, or would you rather answer these 9 questions fresh?"
+  - **Use the pre-work:** read the whole thing first, map what you can onto the 9 sections below (a spoken transcript won't follow the question order — use judgment on where each part belongs), then ask only about anything thin, missing, or unclear. Say up front how much is covered: "From your pre-work, [n] of 9 are answered. Let's cover: [list]."
+  - **Answer fresh:** ask all 9, one at a time, and don't pull from the pre-work while doing it.
+- **Neither exists** → ask all 9, one at a time.
+
+**Switching mid-stream, either direction:**
+- Answering fresh and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest in from the pre-work, and say where that leaves things: "Between what you've answered here and your pre-work, [x] of 9 are done. I just need you on: [list]." Then ask only the remaining gaps.
+- Gap-checking the pre-work and they'd rather answer the rest fresh — switch back just as readily, and stop pulling from the pre-work for anything not yet asked.
+
 ## How to run it
 
-One question at a time, same as the Firm Brain interview. Write each answer to `about-me.md` as you go, don't batch it to the end. If someone already has an `about-me.md` from another tool or a prior session, read it first and gap-check the thin spots instead of starting over — same logic as the Firm Brain Prep Sheet path.
+One question at a time, same as the Firm Brain interview. Write each answer to `about-me.md` as you go, don't batch it to the end.
 
-**Voice memo option:** offer this up front, same as Firm Brain — "If you'd rather talk through this than type it, record yourself out loud answering these 9 questions — your phone's voice memo app is the easiest way — get a text transcript, and upload or paste it here instead." Treat an uploaded transcript the same way as an existing `about-me.md`: read the whole thing first, map what you can onto the 9 sections below (a spoken transcript won't follow the question order — use judgment on where each part belongs), then ask one at a time about anything thin, missing, or unclear from context. Don't re-ask what's already solid.
+**Voice memo option:** offer this up front, same as Firm Brain — "If you'd rather talk through this than type it, record yourself out loud answering these 9 questions — your phone's voice memo app is the easiest way — get a text transcript, and upload or paste it here instead." Treat an uploaded transcript the same as a Pre-Work Packet for the choice above.
 
 Ask, in order:
 
