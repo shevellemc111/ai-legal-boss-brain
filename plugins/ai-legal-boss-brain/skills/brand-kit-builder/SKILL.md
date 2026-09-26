@@ -1,7 +1,7 @@
 ---
 name: brand-kit-builder
 description: Required. Builds brand-kit.md and stores the firm's actual letterhead file, so every AI employee that drafts correspondence or agreements uses the real brand colors, fonts, letterhead, and bar-required disclosures instead of guessing. ~10-15 minutes. Trigger on "brand kit," "my brand," "letterhead," "brand colors," or any request to build or fill out a brand file.
-version: 1.0
+version: 1.1
 ---
 
 # Brand Kit Builder
@@ -19,6 +19,20 @@ Everything this training builds lives in one folder the attorney attached to thi
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
 2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder, including any letterhead and logo files uploaded — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
+
+## Before you start — pre-work check
+
+Check whether `about-me/brand-kit.md` already exists.
+
+- **It exists already** → tell them what you found and ask if they want to redo it, update a piece, or leave it alone.
+- **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has Brand Kit answered** → ask first: "I found your pre-work on Brand Kit. Want me to use it and only ask about what's missing, or would you rather answer these 11 questions fresh?"
+  - **Use the pre-work:** map every answer onto the template, flag anything thin or missing (no hex color given, no bar number, etc.), then ask only about the gaps, one at a time. Say up front how much is covered: "From your pre-work, [n] of 11 are answered. Let's cover: [list]." If a letterhead or logo file was mentioned in the pre-work but not actually attached, ask them to upload it now — a described file doesn't substitute for the real one (see Hard rules).
+  - **Answer fresh:** ask all 11, in order, and don't pull from the pre-work while doing it.
+- **Neither exists** → ask all 11, in order, per below.
+
+**Switching mid-stream, either direction:**
+- Answering fresh and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest in from the pre-work, and say where that leaves things: "Between what you've answered here and your pre-work, [x] of 11 are done. I just need you on: [list]." Then ask only the remaining gaps.
+- Gap-checking the pre-work and they'd rather answer the rest fresh — switch back just as readily, and stop pulling from the pre-work for anything not yet asked.
 
 ## How to run it
 
