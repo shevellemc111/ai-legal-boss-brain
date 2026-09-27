@@ -1,14 +1,14 @@
 ---
 name: brand-kit-builder
-description: Required. Builds brand-kit.md and stores the firm's actual letterhead file, so every AI employee that drafts correspondence or agreements uses the real brand colors, fonts, letterhead, and bar-required disclosures instead of guessing. ~10-15 minutes. Trigger on "brand kit," "my brand," "letterhead," "brand colors," or any request to build or fill out a brand file.
-version: 1.1
+description: Optional. Builds brand-kit.md and stores the firm's actual letterhead file, so every AI employee that drafts correspondence or agreements uses the real brand colors, fonts, letterhead, and bar-required disclosures instead of guessing. ~10-15 minutes. Trigger on "brand kit," "my brand," "letterhead," "brand colors," or any request to build or fill out a brand file.
+version: 1.2
 ---
 
 # Brand Kit Builder
 
 `firm-brain.md` is the firm's mechanics. `writing-rules.md` is the voice. `about-me.md` is the attorney. This file is the **visual identity and required disclosures** — colors, fonts, logo, letterhead, bar number, attorney-advertising language — so anything an AI employee drafts (a letter, an agreement, a document) actually looks like it came from this firm and carries what the bar requires it to carry.
 
-Required for this training, alongside Firm Brain, Writing Rules, and About Me — a drafted letter or engagement letter that's missing a bar-required disclosure or the attorney's registration number is a real problem, not a style miss.
+Optional for this training — not covered live at the event, so do this whenever it's convenient. Still worth doing: a drafted letter or engagement letter that's missing a bar-required disclosure or the attorney's registration number is a real problem, not a style miss.
 
 Budget about 10-15 minutes.
 
