@@ -11,7 +11,7 @@ The Firm Brain Builder kit for **AI Powered Law Firm Live** (Oct 10, 2026), pack
 | firm-brain-builder | `firm-brain.md`: the operating brain your AI employees run on | Required |
 | writing-rules-builder | `writing-rules.md`: your voice, from three real writing samples | Required |
 | about-me-builder | `about-me.md`: who you are as an attorney and a practitioner | Required |
-| brand-kit-builder | `brand-kit.md` plus your real letterhead, logo, and bar-required signature block | Required |
+| brand-kit-builder | `brand-kit.md` plus your real letterhead, logo, and bar-required signature block | Optional — not covered live at the event |
 | how-i-work-builder | `how-i-work.md`: standing rules for how Claude works with you | Optional — first to skip if time is short |
 
 **AI employees — the afternoon block, 1pm-4pm, about an hour each**
