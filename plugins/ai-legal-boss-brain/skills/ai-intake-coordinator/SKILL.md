@@ -47,6 +47,7 @@ Ask **one question at a time**. Before the first question, create `about-me/inta
 
 **1. Matter types you take**
 Read Firm Brain Q1 back, then ask: "Which of these types of matters do you take new clients for: **Criminal, Personal Injury, Family**, or something else? I have a ready-made intake track for each of the first three; anything else we'll build together. And is there anything that could look like one type but you handle under another? For example, some firms run domestic violence restraining orders (TRO/FRO) through their criminal intake, others through family."
+Then confirm jurisdiction: "Your Firm Brain says you're admitted in [state(s)]. I'll use those states' courts, terms, and agencies, never another state's. Here's what I have for [state] — anything to correct?" Show only their state(s)' rows from the table in `references/intake-matter-types.md`; record their corrections in the rulebook. If Firm Brain has no bar admission, ask for it before going further.
 Record each matter type the attorney takes, any sub-types (e.g., PI: motor vehicle, med mal, slip-and-fall; Family: divorce, custody, support, DV), and any cross-mapping (e.g., "TRO/FRO → Criminal track"). Also record matter types they explicitly do NOT take (from Firm Brain Q1), so intake can flag them instead of running a track.
 
 **2. Who's a fit, and red flags**
@@ -87,7 +88,8 @@ Save to `about-me/intake-coordinator.md`:
 # Intake Coordinator Rulebook — {{FIRM_NAME}}
 
 ## Matter types
-- **Taken:** {{e.g., Criminal; Personal Injury (motor vehicle, med mal, slip-and-fall); Family (divorce, custody)}}
+- **Jurisdiction(s):** {{state(s) of bar admission}} — state-specific terms confirmed: {{courts, auto tort option, public-entity notice, med mal requirement, protective-order name, child-welfare agency, as corrected by the attorney}}
+- **Taken:** {{e.g., Criminal; Personal Injury (motor vehicle, med mal, slip-and-fall); Family (divorce, custody, protective orders)}}
 - **Cross-mapping:** {{e.g., "TRO/FRO → Criminal track", or "None"}}
 - **Not taken (flag, don't run a track):** {{list from Firm Brain Q1}}
 
@@ -162,7 +164,7 @@ Fixed step, every intake: after the matter type is known, collect full names of 
 ### Client intake ("new client," "start intake")
 
 1. Read the rulebook, `references/attorney-rules.md`, and `references/intake-matter-types.md`.
-2. **Matter type, first question, every time.** Ask: "What type of matter is this?" Offer the firm's matter types in plain words (e.g., "Is this about criminal charges, an injury, or a family matter like divorce or custody?"). This is routing only — no substantive questions yet.
+2. **Matter type, first question, every time.** (Then, as the first common question, ask which state and county the matter is in; flag it to the attorney if they aren't admitted there.) Ask: "What type of matter is this?" Offer the firm's matter types in plain words (e.g., "Is this about criminal charges, an injury, or a family matter like divorce or custody?"). This is routing only — no substantive questions yet.
    - **Type the firm takes** → use that track (follow the rulebook's cross-mapping, e.g., TRO/FRO → Criminal).
    - **Type the firm does NOT take** → stop, flag it to the attorney as a not-a-fit inquiry with the reason. Don't run a track, and don't tell the prospect "we can't help" without the attorney's approval.
    - **Unclear, or fits two tracks with no mapping** → one plain follow-up question; if still unclear, ask the attorney which track to use before continuing.
@@ -199,4 +201,4 @@ See `references/attorney-rules.md` for the full shared rule set. In addition, sp
 
 ## Version notes
 
-v2.0 — Matter-type routing. Every intake now asks "What type of matter is this?" first and runs only that matter type's track (conflict-check names, intake questions, emergency flags, engagement letter). Built-in starter tracks for Criminal, Personal Injury, and Family live in `references/intake-matter-types.md`; any other practice area gets a custom track built at setup. Setup questions 1, 3, 5, 6, and 9 are now asked per matter type, and the rulebook template is organized by matter type. No borrowing another matter type's agreement.
+v2.0 — Matter-type routing. Every intake now asks "What type of matter is this?" first and runs only that matter type's track (conflict-check names, intake questions, emergency flags, engagement letter). Built-in starter tracks for Criminal, Personal Injury, and Family live in `references/intake-matter-types.md`; any other practice area gets a custom track built at setup. Setup questions 1, 3, 5, 6, and 9 are now asked per matter type, and the rulebook template is organized by matter type. No borrowing another matter type's agreement. Jurisdiction-aware for NJ, PA, MD, and MA: asks which state the matter is in, uses only that state's terms, flags matters outside the attorney's admissions, and has the attorney confirm their state's terms at setup.
