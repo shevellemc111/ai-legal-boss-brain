@@ -17,7 +17,7 @@ Budget about 10-15 minutes.
 Everything this training builds lives in one folder the attorney attached to this Cowork task, so their AI employees can find it later.
 
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
-2. Always open by asking this out loud, even when a folder is attached, before any other question: "Did you attach your folder? I see [folder name] attached — is that the folder you want your files saved in? I'll put them in [folder name]/about-me/." Wait for their yes before writing anything. Create `about-me/` if it doesn't exist yet.
+2. Ask about the folder **once per training, in the first module only.** If the folder was already confirmed earlier in this session, or `about-me/firm-brain.md` is already in the attached folder, do not ask again. Just say where this file will be saved ("[folder name]/about-me/") and go on. Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder, including any letterhead and logo files uploaded — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
 ## Before you start — pre-work check

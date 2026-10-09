@@ -56,7 +56,7 @@ Ask **one question at a time.** Before the first question, create `about-me/emai
 "Whose email should never get buried? Give me the clients, courts, opposing counsel, or colleagues who should always be at the top of your summary."
 
 **3. Recurring emails**
-Read Q5 back: "Your Firm Brain says you regularly send [list]. Want me to have any of these drafted and waiting for you automatically? If so, when? (Anything with client or matter detail stays a draft for your approval. Only a fixed message with no case-specific information can be pre-approved to send on its schedule.) For example: a weekly client status update, every Friday morning."
+Read Q5 back (for recurring letters to incarcerated clients, e.g. monthly on the 1st, draft them as Word letters on the attorney's letterhead and pull the client list from the Operations Assistant's matter tracker once it exists; note that dependency): "Your Firm Brain says you regularly send [list]. Want me to have any of these drafted and waiting for you automatically? If so, when? (Anything with client or matter detail stays a draft for your approval. Only a fixed message with no case-specific information can be pre-approved to send on its schedule.) For example: a weekly client status update, every Friday morning."
 
 **4. Reply drafts**
 "When someone's waiting on a reply, should I draft one for you in your Drafts folder so you can review it and hit send? Is there anything I should never draft — anything touching legal advice, case strategy, deadlines, settlement or fee negotiation, or privileged detail always gets flagged instead of drafted, per the shared rules, but tell me if there's anything else you want off-limits too."
@@ -115,7 +115,8 @@ Drafts first. Sends a message only after the attorney has reviewed that exact me
 
 1. **Scheduled checks:** offer to set up the check schedule from question 5, plus any automatic recurring drafts from question 3, as scheduled tasks. Offer them one at a time: "Want me to set up a scheduled task to check your email weekdays at 8am?" Confirm the day and time, then create it with Cowork's scheduled tasks. Scheduled tasks only check, summarize, and draft. They never send. If scheduled tasks aren't available, give them the phrase to use instead: "Check my email."
 2. **First check:** run a first inbox check so they can see what it looks like.
-3. **Next level:** tell them: "A fuller Email Manager — with inbox organizing, follow-up tracking, and more — is coming at the next event."
+3. **Closing line:** at the very end of setup, say: "Email agent all set up! Want me to run the first inbox check now?" and run the first check if they say yes (step 2).
+4. **Next level:** tell them: "A fuller Email Manager — with inbox organizing, follow-up tracking, and more — is coming at the next event."
 
 ---
 
@@ -163,6 +164,8 @@ See `references/attorney-rules.md` for the full shared rule set (no legal advice
 5. **If unsure, ask.** Put anything unclear under "Anything I wasn't sure about" instead of guessing.
 
 ## Version notes
+
+v1.3 — Closing line after setup; recurring-letter dependency on the Operations Assistant tracker.
 
 v1.2 — From live testing: summary adds an "Account & security alerts" section (billing failures, security alerts, expiring e-sign documents) and a "Skipped: N promotional emails" count; setup asks whether the inbox is business-only or mixed; summary delivery offers chat, saved file, and the scheduled task's email/phone completion notice (the AI never sends email, even to the attorney).
 
