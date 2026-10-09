@@ -57,7 +57,8 @@ Read Q2 back: "Your Firm Brain says your ideal client is [summary] and you don't
 Tell them directly: "Every intake starts with a conflict check, before anything else. I'll collect the full names of everyone involved — the prospective client, any co-parties, and every adverse party or related entity (an ex-spouse, a business partner, a company, an insurer) — and flag that list for your own conflict check before intake goes any further. I never decide whether a conflict exists; that's always yours. Is there anything specific about how your firm runs conflict checks I should know — a conflicts list you keep, a co-counsel situation, anything?"
 Then show the conflict-check names for each of their matter types from `references/intake-matter-types.md` (Criminal: co-defendants, complaining witnesses; PI: at-fault parties, property owners, providers, insurers; Family: opposing party, their attorney, children, other parties) and ask if they want to add anyone.
 
-**4. How leads arrive**
+**4. How leads arrive, and what order things happen**
+Ask: "What order do things happen in your firm?" (call, conflict check, retainer, invoice, intake form, file opened, hand-off to operations). Record their real order. Don't assume intake questions come before the retainer; some firms send the retainer first and collect the full intake after payment. Then:
 "How do new prospects usually reach you — website form, email, phone, referrals, a court-appointed or panel assignment? Which one is most common?"
 
 **5. Intake questions — one track per matter type**
@@ -69,7 +70,9 @@ Then, **for each matter type from question 1, one at a time**, show that type's 
 - Confirm the emergency flags for each track (e.g., PI: statute of limitations close, public entity involved, med mal; Family: safety concern, child at risk, hearing within 1-2 days; Criminal: in custody, court within 1-2 days).
 
 **6. Your engagement letter**
-"What agreement do clients sign — an engagement letter, a retainer agreement, a hybrid fee agreement? Please upload your current template now if you have one (Word or PDF). If you don't have one yet, tell me and I'll flag it — I won't write one from scratch without you reviewing it carefully, and any agreement always uses your own template with your own ethics disclaimers intact, per the shared attorney rules." Ask this **per matter type**: criminal flat-fee letters, PI contingency agreements, and family retainers are usually different documents. Save each uploaded template to `about-me/templates/` and record which matter type (and sub-type) it is for. A matter type with no template is flagged — intake for that type can still run, but no agreement gets drafted until a template is on file.
+"What agreement do clients sign — an engagement letter, a retainer agreement, a hybrid fee agreement? Please upload your current template now if you have one (Word or PDF). If you don't have one yet, tell me and I'll flag it — I won't write one from scratch without you reviewing it carefully, and any agreement always uses your own template with your own ethics disclaimers intact, per the shared attorney rules." Ask this **per matter type**: criminal flat-fee letters, PI contingency agreements, and family retainers are usually different documents. Save each uploaded template to `about-me/templates/` and record which matter type (and sub-type) it is for. Fix typos in the template when drafting; never copy them forward. If the template is a PDF, rebuild it as a Word document with the same letterhead and ethics language. A matter type with no template is flagged — intake for that type can still run, but no agreement gets drafted until a template is on file.
+
+**Quick win after question 6:** once they've uploaded a retainer or engagement letter, say: "Let's draft a retainer right now, on your own letterhead. Give me call notes for a pretend client." Fill their own template (keep the letterhead and ethics language), save it as Word in `outputs/<client>/`, write a cover email in their voice as a draft, and send nothing. If there is no template, flag it and skip this.
 
 **7. Fees and payment terms**
 Read Q8 back and confirm: standard fees, retainer amounts, payment schedules, and how stages get billed separately if that applies. "Is there any fee information I'm allowed to share with a prospect, or should every fee question go to you?"
@@ -156,10 +159,17 @@ Fixed step, every intake: after the matter type is known, collect full names of 
 1. Read the rulebook back and fix anything they want changed.
 2. If they asked for a scheduled inquiry check and email is connected, offer to create it with Cowork's scheduled tasks. It only drafts, never sends.
 3. Offer a practice run: "Want to try it with a pretend prospective client so you can see how intake feels?"
+4. If the Firm Brain files and all three AI employee rulebooks (`intake-coordinator.md`, `email-manager.md`, `operations-assistant.md`) are now in `about-me/`, end the whole build with: "Congratulations! You now have a personalized Firm Brain and 3 AI employees ready to work. [Firm name from firm-brain.md] is officially AI powered. Time to celebrate. See you soon in the Boss Lounge!"
 
 ---
 
 ## Daily work
+
+### Call notes (the Intake Coordinator does not listen to calls live)
+After a call, the attorney gives notes: a dictated voice memo, typed notes, or a Zoom transcript. Intake works from those notes, then asks only about what's missing. Remind attendees to follow their state's call-recording consent rules, and that prospective clients have confidentiality protections from the first call.
+
+### Third-party payers and cash
+When someone other than the client is paying, ask for the payer's name and address, record them as the financial obligor, and flag that the attorney should review the third-party payer language in the agreement. If payment is cash, replace card auto-pay wording and flag the receipt language for the attorney.
 
 ### Client intake ("new client," "start intake")
 
@@ -200,5 +210,7 @@ See `references/attorney-rules.md` for the full shared rule set. In addition, sp
 7. **Confidentiality is the default** for every prospective client's information, from the first message, per references/attorney-rules.md Rule 2.
 
 ## Version notes
+
+v2.1 — Asks the order things happen in the firm; retainer quick win after the template upload; post-call notes mode; third-party payer and cash handling; typo and PDF-template rules.
 
 v2.0 — Matter-type routing. Every intake now asks "What type of matter is this?" first and runs only that matter type's track (conflict-check names, intake questions, emergency flags, engagement letter). Built-in starter tracks for Criminal, Personal Injury, and Family live in `references/intake-matter-types.md`; any other practice area gets a custom track built at setup. Setup questions 1, 3, 5, 6, and 9 are now asked per matter type, and the rulebook template is organized by matter type. No borrowing another matter type's agreement. Jurisdiction-aware for NJ, PA, MD, and MA: asks which state the matter is in, uses only that state's terms, flags matters outside the attorney's admissions, and has the attorney confirm their state's terms at setup.

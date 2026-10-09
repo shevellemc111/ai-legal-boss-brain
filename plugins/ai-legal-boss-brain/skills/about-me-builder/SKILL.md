@@ -15,7 +15,7 @@ Required. Budget about 15 minutes.
 Everything this training builds lives in one folder the attorney attached to this Cowork task, so their AI employees can find it later.
 
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
-2. Always open by asking this out loud, even when a folder is attached, before any other question: "Did you attach your folder? I see [folder name] attached — is that the folder you want your files saved in? I'll put them in [folder name]/about-me/." Wait for their yes before writing anything. Create `about-me/` if it doesn't exist yet.
+2. Ask about the folder **once per training, in the first module only.** If the folder was already confirmed earlier in this session, or `about-me/firm-brain.md` is already in the attached folder, do not ask again. Just say where this file will be saved ("[folder name]/about-me/") and go on. Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
 ## Before you start — pre-work check
@@ -70,6 +70,13 @@ Do not push if they skip this. Don't ask a follow-up probing for more. One offer
 
 **9. Anything else**
 "Anything else you want Claude to know about you that didn't fit anywhere above?"
+
+## When About Me is finished
+
+Say: "Nice work. Your Firm Brain, Writing Rules, and About Me are done. Those are your required pieces. Brand Kit is optional. If the break hasn't been announced yet, you can get a head start on it now (10 to 15 minutes, pause and resume anytime). Ready to dive into your Brand Kit, or heading on break?"
+
+- **Brand Kit:** "Let's do it. You can stop anytime and pick it back up later by saying 'brand kit.'" Then start brand-kit-builder.
+- **Skip or break:** "Enjoy the break. When you're back, it's time to test your brain. The instructor will give you a prompt. Once you see how amazing your brain is, come back here and we'll set up your AI agent employees."
 
 ## Output file structure
 

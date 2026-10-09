@@ -59,7 +59,7 @@ Turn Q4 into a stage list and read it back, one list per matter type they take. 
 - If their tool syncs dates to Google Calendar or Outlook, mention that connecting that calendar to Claude read-only is the easiest way to keep dates current.
 
 **3. Your active matters**
-"Let's load your current matters. For each one: client/matter name, matter type, what stage it's in, and the next step with a due date if there is one. You can list them, paste them, or upload a spreadsheet." Build the tracker from this (see **Tracker format**). If there are a lot of matters, load the most active ones now and offer to finish the rest after the event.
+"Let's load at least two of your current clients so you can see how this works. Many attorneys don't use Notion or case management software, and that's fine. You can type them in, paste a list, or upload a CSV or spreadsheet of open matters. For each one: client name, case type, stage, next step, next court date with time and courtroom (if any), who owns the next step, and when you last spoke to the client." Build the tracker from this (see **Tracker format**). If there are a lot of matters, load the most active ones now and offer to finish the rest after the event.
 
 **4. Dates that matter — reminders only**
 Tell them plainly first: "This is a backstop, not your calendaring or docketing system of record — your real system stays the source of truth for anything with real consequences for a client." Then ask: "What dates should I watch for you — court dates, filing deadlines, statutes of limitations, discovery cutoffs, follow-up dates? What's the source of truth I should never override — your calendaring software, your docket?"
@@ -133,14 +133,20 @@ Unless they use a connected tool, keep `outputs/operations/matter-tracker.md`:
 
 ```markdown
 # Matter Tracker — updated {{date}}
-## Matters
-| ID | Client/Matter | Matter type | Stage | Stage since | Last client contact | Next step | Owner | Notes |
-|---|---|---|---|---|---|---|---|---|
+## Quick view (built for a phone)
+| Client | Case type | Stage | Next court date | Next step | Owner |
+|---|---|---|---|---|---|
+
+## Matters (full detail)
+| ID | Client | Case type | Stage | Last client contact | Next step | Owner | Notes |
+|---|---|---|---|---|---|---|---|
 
 ## Dates
-| ID | Matter ID | Client | Event | Date | Place |
-|---|---|---|---|---|---|
+| ID | Matter ID | Client | Event | Date and time | Courtroom | Place |
+|---|---|---|---|---|---|---|
 ```
+Keep the tracker lean for the quick win. Judge, adversary, case number, and "stage since" are Level II. Do not ask for them during setup. Start the file with a phone-friendly **Quick view**: Client, Case type, Stage, Next court date (time and courtroom in the same cell), Next step, Owner. Keep Last client contact, Matter ID, and Notes in the full table below it.
+
 Give every matter an ID (M-001…) and every date an ID (D-1…) so two clients with similar names, or two dates on one matter, never get mixed up. "Last client contact" is what lets the no-contact stall rule work; if it's unknown, say so in the review instead of guessing.
 
 ### Finish setup
@@ -148,6 +154,7 @@ Give every matter an ID (M-001…) and every date an ID (D-1…) so two clients 
 1. Read the rulebook back and fix anything they want changed.
 2. Offer to create the review schedule from question 8 with Cowork's scheduled tasks. Confirm the day, time, and delivery. Reviews only read, track, and report. If scheduled tasks aren't available, give them the phrase to run it by hand: "What's due this week?"
 3. Run a first what's-due review so they see what it looks like.
+4. If the Firm Brain files and all three AI employee rulebooks (`intake-coordinator.md`, `email-manager.md`, `operations-assistant.md`) are now in `about-me/`, end the whole build with: "Congratulations! You now have a personalized Firm Brain and 3 AI employees ready to work. [Firm name from firm-brain.md] is officially AI powered. Time to celebrate. See you soon in the Boss Lounge!"
 
 ---
 
@@ -194,5 +201,7 @@ See `references/attorney-rules.md` for the full shared rule set. In addition, sp
 7. **If unsure, ask.** When it's unclear what stage a matter is in or whether a date is real, list it under "Anything I wasn't sure about" instead of guessing.
 
 ## Version notes
+
+v1.3 — Setup asks for at least two clients with fallbacks for attorneys without Notion or case management; lean tracker with a phone-friendly Quick view (judge, adversary, case number, stage since are Level II); closing message when the build is complete.
 
 v1.2 — From live testing: starter stages per matter type and starter stall limits; case management guidance (system of record, export open matters as CSV, minimum data, map statuses to stages, one-way read-only flow, calendar sync); tracker adds matter/date IDs, a separate Dates table, and a "Last client contact" column; every review flags court dates on weekends or court holidays; review delivery offers the scheduled task's email/phone notice (the AI never sends email).
