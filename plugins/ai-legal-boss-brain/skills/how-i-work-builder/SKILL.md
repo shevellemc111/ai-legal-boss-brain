@@ -15,7 +15,7 @@ Budget about 10 minutes if they choose to do it.
 Everything this training builds lives in one folder the attorney attached to this Cowork task, so their AI employees can find it later.
 
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
-2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
+2. Always open by asking this out loud, even when a folder is attached, before any other question: "Did you attach your folder? I see [folder name] attached — is that the folder you want your files saved in? I'll put them in [folder name]/about-me/." Wait for their yes before writing anything. Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
 ## Before you start — pre-work check
@@ -26,7 +26,9 @@ Check whether `about-me/how-i-work.md` already exists.
 - **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has How I Work answered** → ask first: "I found your pre-work on How I Work. Want me to use it and only ask about what's missing, or would you rather answer these 5 questions fresh?"
   - **Use the pre-work:** map every answer onto the template, then ask only about the gaps. Say up front how much is covered: "From your pre-work, [n] of 5 are answered. Let's cover: [list]."
   - **Answer fresh:** ask all 5, one at a time, and don't pull from the pre-work while doing it.
-- **Neither exists** → ask all 5, one at a time, per below.
+- **Neither exists** → ask one line first, before any questions: "Did you do your pre-work? If so, upload or paste it (typed answers or a voice-memo transcript) and I'll use it and only ask about what's missing — or we can answer fresh. Which would you like?" (Skip this if they already told you earlier in this session whether they did pre-work.) Yes and they provide it → follow the pre-work path above. No → ask all 5, one at a time, per below.
+
+**Pausing and resuming:** Save each answer to `about-me/how-i-work.md` right after it's given, marking sections you haven't reached `[not yet answered]`, so nothing is lost if they stop. If `how-i-work.md` exists but is incomplete, don't treat it as finished — say "Welcome back — you've finished [x] of 5. Picking up at [next item]." and ask only what's still unanswered. Saying the same trigger phrase again later resumes it.
 
 **Switching mid-stream, either direction:** same as the other modules — "just use my pre-work" switches right away (live answers win over the pre-work, then it fills the rest and says "[x] of 5 are done, I just need you on: [list]"); wanting to finish fresh instead switches back, and the pre-work stops getting pulled from that point on.
 

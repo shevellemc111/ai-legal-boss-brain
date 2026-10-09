@@ -17,7 +17,7 @@ Budget about 10-15 minutes.
 Everything this training builds lives in one folder the attorney attached to this Cowork task, so their AI employees can find it later.
 
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live (for example, a folder named My Firm Brain). Tell me when it's attached." Don't ask any interview questions until a folder is attached.
-2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
+2. Always open by asking this out loud, even when a folder is attached, before any other question: "Did you attach your folder? I see [folder name] attached — is that the folder you want your files saved in? I'll put them in [folder name]/about-me/." Wait for their yes before writing anything. Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder, including any letterhead and logo files uploaded — never the folder root, a temporary location, or anywhere else. If the attorney asks for a different location, use it, and tell them plainly that their AI employees look in `about-me/` by default.
 
 ## Before you start — pre-work check
@@ -28,7 +28,9 @@ Check whether `about-me/brand-kit.md` already exists.
 - **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has Brand Kit answered** → ask first: "I found your pre-work on Brand Kit. Want me to use it and only ask about what's missing, or would you rather answer these 11 questions fresh?"
   - **Use the pre-work:** map every answer onto the template, flag anything thin or missing (no hex color given, no bar number, etc.), then ask only about the gaps, one at a time. Say up front how much is covered: "From your pre-work, [n] of 11 are answered. Let's cover: [list]." If a letterhead or logo file was mentioned in the pre-work but not actually attached, ask them to upload it now — a described file doesn't substitute for the real one (see Hard rules).
   - **Answer fresh:** ask all 11, in order, and don't pull from the pre-work while doing it.
-- **Neither exists** → ask all 11, in order, per below.
+- **Neither exists** → ask one line first, before any questions: "Did you do your pre-work? If so, upload or paste it (typed answers or a voice-memo transcript) and I'll use it and only ask about what's missing — or we can answer fresh. Which would you like?" (Skip this if they already told you earlier in this session whether they did pre-work.) Yes and they provide it → follow the pre-work path above. No → ask all 11, in order, per below.
+
+**Pausing and resuming:** Save each answer to `about-me/brand-kit.md` right after it's given, marking sections you haven't reached `[not yet answered]`, so nothing is lost if they stop. If `brand-kit.md` exists but is incomplete, don't treat it as finished — say "Welcome back — you've finished [x] of 11. Picking up at [next item]." and ask only what's still unanswered. Saying the same trigger phrase again later resumes it.
 
 **Switching mid-stream, either direction:**
 - Answering fresh and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest in from the pre-work, and say where that leaves things: "Between what you've answered here and your pre-work, [x] of 11 are done. I just need you on: [list]." Then ask only the remaining gaps.
