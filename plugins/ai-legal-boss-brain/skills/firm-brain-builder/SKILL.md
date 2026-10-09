@@ -17,7 +17,7 @@ This is a **required** module. Budget 20-25 minutes. The goal is a usable first 
 Everything this training builds lives in one folder attached to this Cowork task, so your AI employees can find it later.
 
 1. Check whether a folder is attached to this task. If none is, stop and say: "Before we start, attach the folder where you want your Firm Brain files to live. Tell me when it's attached." Don't ask any interview questions until a folder is attached.
-2. Confirm out loud before writing anything: "I'll save your files in [folder name]/about-me/. Sound good?" Create `about-me/` if it doesn't exist yet.
+2. Always open by asking this out loud, even when a folder is attached, before any other question: "Did you attach your folder? I see [folder name] attached — is that the folder you want your files saved in? I'll put them in [folder name]/about-me/." Wait for their yes before writing anything. Create `about-me/` if it doesn't exist yet.
 3. Save every file this skill creates in that `about-me/` folder — never the folder root, a temporary location, or anywhere else.
 
 ## Before you start
