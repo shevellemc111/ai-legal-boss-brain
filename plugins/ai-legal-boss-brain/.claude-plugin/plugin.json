@@ -1,6 +1,6 @@
 {
   "name": "ai-legal-boss-brain",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "AI Legal Boss Brain: build your Firm Brain, voice, about-me, and brand kit, then stand up three AI employees (Intake Coordinator, Email Manager, Operations Assistant) built around attorney-only guardrails — no legal advice without review, conflicts-first, privileged by default, and NJ/PA/MD/MA ethics-aware.",
   "author": {
     "name": "Shevelle McPherson, Esq.",

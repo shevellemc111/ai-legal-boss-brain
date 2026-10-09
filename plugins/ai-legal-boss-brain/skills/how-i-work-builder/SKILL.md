@@ -26,7 +26,7 @@ Check whether `about-me/how-i-work.md` already exists.
 - **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has How I Work answered** → ask first: "I found your pre-work on How I Work. Want me to use it and only ask about what's missing, or would you rather answer these 5 questions fresh?"
   - **Use the pre-work:** map every answer onto the template, then ask only about the gaps. Say up front how much is covered: "From your pre-work, [n] of 5 are answered. Let's cover: [list]."
   - **Answer fresh:** ask all 5, one at a time, and don't pull from the pre-work while doing it.
-- **Neither exists** → ask all 5, one at a time, per below.
+- **Neither exists** → ask one line first, before any questions: "Did you do your pre-work? If you did, upload or paste it now (typed answers or a voice-memo transcript) and I'll use it and only ask what's missing. If not, no problem — we'll go through it fresh." (Skip this if they already told you earlier in this session whether they did pre-work.) Yes and they provide it → follow the pre-work path above. No → ask all 5, one at a time, per below.
 
 **Switching mid-stream, either direction:** same as the other modules — "just use my pre-work" switches right away (live answers win over the pre-work, then it fills the rest and says "[x] of 5 are done, I just need you on: [list]"); wanting to finish fresh instead switches back, and the pre-work stops getting pulled from that point on.
 

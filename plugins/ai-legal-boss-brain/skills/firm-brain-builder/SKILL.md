@@ -28,7 +28,7 @@ Check whether `about-me/firm-brain.md` already exists.
 - **It doesn't exist yet, but the attorney has a completed (or partial) Firm Brain Pre-Work Packet — typed answers or a voice-memo transcript — uploaded, pasted, or mentioned as already done** → ask first, don't pick a path for them: "I found your pre-work on Firm Basics and the 9 questions. Want me to use it and only ask about what's missing, or would you rather answer them fresh?"
   - **Use the pre-work → Path B (Gap-Check).** Say up front how much is covered: "From your pre-work, [n] of 9 are answered. Let's cover: [list]."
   - **Answer fresh → Path A (Interview)**, and don't pull from the pre-work while running it.
-- **Neither exists** → **Path A (Interview).**
+- **Neither exists** → ask one line first, before any questions: "Did you do your pre-work? If you did, upload or paste it now (typed answers or a voice-memo transcript) and I'll use it and only ask what's missing. If not, no problem — we'll go through it fresh." (Skip this if they already told you earlier in this session whether they did pre-work.) Yes and they provide it → follow the pre-work path above. No → **Path A (Interview).**
 
 **Switching mid-stream, either direction:**
 - Running Path A and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live here (their live answers win over the pre-work on anything both cover), fill the rest in from the pre-work, and tell them where that leaves things: "Between what you've answered here and your pre-work, [x] of 9 are done. I just need you on: [list]." Then ask only the remaining gaps — that's Path B from here on.

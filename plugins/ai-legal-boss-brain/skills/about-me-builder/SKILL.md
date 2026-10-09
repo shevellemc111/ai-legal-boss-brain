@@ -26,7 +26,7 @@ Check whether `about-me/about-me.md` already exists.
 - **It doesn't exist yet, but the Firm Brain Pre-Work Packet already has About Me answered — typed or a voice-memo transcript** → ask first: "I found your pre-work on About Me. Want me to use it and only ask about what's missing, or would you rather answer these 9 questions fresh?"
   - **Use the pre-work:** read the whole thing first, map what you can onto the 9 sections below (a spoken transcript won't follow the question order — use judgment on where each part belongs), then ask only about anything thin, missing, or unclear. Say up front how much is covered: "From your pre-work, [n] of 9 are answered. Let's cover: [list]."
   - **Answer fresh:** ask all 9, one at a time, and don't pull from the pre-work while doing it.
-- **Neither exists** → ask all 9, one at a time.
+- **Neither exists** → ask one line first, before any questions: "Did you do your pre-work? If you did, upload or paste it now (typed answers or a voice-memo transcript) and I'll use it and only ask what's missing. If not, no problem — we'll go through it fresh." (Skip this if they already told you earlier in this session whether they did pre-work.) Yes and they provide it → follow the pre-work path above. No → ask all 9, one at a time.
 
 **Switching mid-stream, either direction:**
 - Answering fresh and they say something like "just use my pre-work" — switch right away. Keep whatever they've already answered live (it wins over the pre-work on anything both cover), fill the rest in from the pre-work, and say where that leaves things: "Between what you've answered here and your pre-work, [x] of 9 are done. I just need you on: [list]." Then ask only the remaining gaps.
