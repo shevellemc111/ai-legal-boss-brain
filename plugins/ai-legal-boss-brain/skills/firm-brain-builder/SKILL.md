@@ -114,7 +114,7 @@ Then say: "Let's sanity-check your voice against a starter list of things that m
 "Who's on your team, and who owns what?"
 - Name each team member, their role, and what they actually own. Solo is a valid answer.
 - Who handles intake calls today, and what do they ask?
-- Who drafts documents, and which types are theirs versus yours?
+- Who writes your documents, like retainers, discovery letters, entries of appearance, and client letters? Is that you, someone on your team, or both?
 - Any VAs or contractors, and what are they responsible for?
 - How does the team communicate?
 - What software do you use for case management, calendaring, e-signature, or billing?
@@ -123,7 +123,7 @@ Then say: "Let's sanity-check your voice against a starter list of things that m
 "What are the hard boundaries for AI in your practice?"
 - What should AI never do on its own?
 - Any confidentiality or ethics rules in your jurisdiction you're already tracking around AI use?
-- When something's uncertain, who should it get flagged to, and how?
+- Say your AI employee isn't sure what to do. For example, your Email Manager finds a court email with a date it can't read, or your Intake Coordinator finds a possible conflict. Where should it tell you (top of your morning email summary, a Slack message, a draft left for your review with a note on it), and should it tell anyone besides you?
 - Is there a current caseload capacity limit worth flagging?
 
 **Q8 — Fee Structure**
@@ -140,7 +140,9 @@ Then say: "Let's sanity-check your voice against a starter list of things that m
 
 ### Step 2 — Wrap up
 
-Show the finished `firm-brain.md` and ask: "Here's your Firm Brain. Anything you'd change, add, or that feels off before we move on?" Make any edits requested.
+Before showing the file, do a gap read-back. Go through the finished `firm-brain.md` and list, in plain language, anything that was left out, thin, vague, skipped, or marked `[not yet answered]` or `[confirm]` (for example: a missing closing step at the end of a matter, ethics rules named only in general terms, retainer or fee amounts left as "varies"). Say: "Before I show you the finished Firm Brain, here's what I heard that was thin or missing: [list each one]. Is there anything else you want to add, for these or anything I didn't ask about?" Ask about these one at a time, write each answer into the file as you go, and do not move on until the attorney says they have nothing else to add.
+
+Then show the finished `firm-brain.md` and ask: "Here's your Firm Brain. Anything you'd change, add, or that feels off before we move on?" Make any edits requested.
 
 Then tell them directly: "One standing rule is built into your Firm Brain: whenever this folder is attached, anything I create for a client or matter gets saved in `outputs/<client-or-matter-name>/`, named `YYYY-MM-DD-short-description` with the right extension. If I can't tell which matter something belongs to, I'll ask before saving."
 
@@ -153,7 +155,7 @@ Then tell them directly: "One standing rule is built into your Firm Brain: whene
 3. Flag anything thin or missing: a vague answer, a skipped question, a contradiction between sections.
 4. Ask ONLY about the thin/missing items, one at a time. Don't re-ask what's already solid.
 5. Write every clarified answer into `about-me/firm-brain.md` as you go.
-6. When done, say plainly which sections you gap-checked and which you left as-is.
+6. When done, say plainly which sections you gap-checked and which you left as-is. Then run the same gap read-back described in Step 2 before showing the final file.
 
 If the input is too thin or rambling to gap-check with confidence, say so honestly and offer to run Path A instead.
 
@@ -235,7 +237,7 @@ Create two subfolders alongside `about-me/` if they don't already exist:
 
 `branding/README.md`: "Drop brand guidelines here later — logo files, color hex codes, fonts, tagline. Optional. Add anytime."
 
-Show the folder structure so far, then say: "Firm Brain is done — the required piece. Writing Rules, About Me, and Brand Kit are also required today; How I Work is optional if there's time."
+Show the folder structure so far, then say: "Firm Brain is done. The next step is completing your Writing Rules. Ready to dive in?" Do not offer a menu of other modules here. If they say yes, start the writing-rules-builder skill. Writing Rules comes first; About Me and Brand Kit are also required later, and How I Work is optional, but leave those for after Writing Rules is finished.
 
 ## Hard rules for this skill
 
@@ -250,3 +252,5 @@ Show the folder structure so far, then say: "Firm Brain is done — the required
 v2.0 — Folder-check gate, `about-me/` file location, Standing File Rule, voice-memo option, and pause/resume language, matching the pattern used across this kit. Writing Rules is required in this kit, so Q3's note points to it as required.
 
 v2.1 — Added the pre-work choice-and-switch behavior: if the Firm Brain Pre-Work Packet already has these questions answered, ask whether to use it and only fill gaps, or answer fresh, and support switching either direction mid-session.
+
+v2.2 — Added a gap read-back at the end of the interview (lists anything left out, thin, or marked unanswered, and asks if there is anything else to add before showing the file). Closing line now moves straight to Writing Rules ("The next step is completing your Writing Rules. Ready to dive in?") instead of offering a menu of modules. Clearer wording for the Q6 document-drafting and Q7 escalation questions.
